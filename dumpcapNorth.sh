@@ -6,12 +6,13 @@
 # REM FIles - # of files to keep before rewiritnig object 
 
 #! /usr/bin/bash
+sleep 120
 
-interfaceID=eno3
-folder="/home/gator/Documents/northCaptures/northTraffic.pcapng"
-interval=interval:100
-files=files:5
+interfaceID=1
+folder="/home/Gator/Documents/northCaptures/northTraffic.pcapng"
+interval=interval:1500
+files=files:1500
 
 
 # REM dumpcap command from cmd with above 
-dumpcap -i $interfaceID -w $folder -b $interval -b $files
+dumpcap -D $interface -w $folder -b $interval -b $files
