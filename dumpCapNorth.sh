@@ -8,11 +8,11 @@
 #! /usr/bin/bash
 sleep 120
 
-interfaceID=1
-folder="/home/Gator/Documents/northCaptures/northTraffic.pcapng"
-interval=interval:1500
-files=files:1500
+interfaceID=wlp3s0
+folder="/home/gator/Documents/northCaptures/"
+filesize=filesize:1500
+files=files:1900
 
 
 # REM dumpcap command from cmd with above 
-dumpcap -D $interface -w $folder -b $interval -b $files
+dumpcap -i $interfaceID -w $folder -b $filesize -b $files
