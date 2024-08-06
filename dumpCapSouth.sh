@@ -8,7 +8,7 @@
 interfaceID=wlp3s0
 folder="/home/gator/Documents/southCaptures/"
 filesize=filesize:1500
-files=files:2000
+files=files:1900
 
 
 # REM dumpcap command from cmd with above 
