@@ -3,8 +3,8 @@
 # REM Interval - when to switch to new file ( when time hits exact mutiplier)
 # REM FIles - # of files to keep before rewiritnig object 
 
-#!/bin/bash
-sleep120
+#! /usr/bin/bash
+sleep 120
 
 interfaceID=wlp3s0
 folder="/home/gator/Documents/southCaptures/"
