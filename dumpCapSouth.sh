@@ -7,7 +7,7 @@
 sleep 120
 
 interfaceID=wlp3s0
-folder="/home/gator/Documents/southCaptures/"
+folder="/home/USER/Documents/southCaptures/"
 filesize=filesize:1500
 files=files:1900
 
